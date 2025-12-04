@@ -11,10 +11,12 @@ const secondoNum = parseInt(prompt("dammi il secondo numero"));
 //CHIEDO ALL'UTENTE IL SECONDO NUMERO
 
 //ELABORAZIONE
+// //SE IL PRIMO NUMERO E' PIU' GRANDE STAMPO  IL PRIMO NUMERO ALTRIMENTI STAMPO IL SECONDO
+
 if (primoNum > secondoNum){
     console.log("il numero maggiore è" + " " + primoNum);
 }else{
     console.log("Il numero più grande è" + " " + secondoNum);
 }
 
-//SE IL PRIMO NUMERO E' PIU' GRANDE STAMPO  IL PRIMO NUMERO ALTRIMENTI STAMPO IL SECONDO
+
