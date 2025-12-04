@@ -20,8 +20,12 @@ const secondoNum = parseInt(prompt("Dammi il secondo numero"));
 
 if (primoNum > secondoNum){
     console.log("il numero maggiore è" + " " + primoNum);
-}else{
+}else if(primoNum < secondoNum){
     console.log("Il numero maggiore è" + " " + secondoNum);
+
+// I DUE NUMERI SONO UGUALI
+}else{
+    console.log("I due numeri sono uguali");
 }
 
 
