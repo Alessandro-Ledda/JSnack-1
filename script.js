@@ -4,11 +4,16 @@
 */
 
 //OUTPUT 
+// //CONTROLLO I DUE NUMERI SCELTI ASSOCIANDOLI A DUE VARIABILI
+
 //CHIEDO ALL'UTENTE IL PRIMO NUMERO
-//CONTROLLO I DUE NUMERI SCELTI ASSOCIANDOLI A DUE VARIABILI
+
 const primoNum = parseInt(prompt("Dammi il primo numero"));
-const secondoNum = parseInt(prompt("Dammi il secondo numero"));
+
 //CHIEDO ALL'UTENTE IL SECONDO NUMERO
+
+const secondoNum = parseInt(prompt("Dammi il secondo numero"));
+
 
 //ELABORAZIONE
 // //SE IL PRIMO NUMERO E' PIU' GRANDE STAMPO  IL PRIMO NUMERO ALTRIMENTI STAMPO IL SECONDO
