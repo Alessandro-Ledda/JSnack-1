@@ -7,7 +7,7 @@
 //CHIEDO ALL'UTENTE IL PRIMO NUMERO
 //CONTROLLO I DUE NUMERI SCELTI ASSOCIANDOLI A DUE VARIABILI
 const primoNum = parseInt(prompt("Dammi il primo numero"));
-const secondoNum = parseInt(prompt("dammi il secondo numero"));
+const secondoNum = parseInt(prompt("Dammi il secondo numero"));
 //CHIEDO ALL'UTENTE IL SECONDO NUMERO
 
 //ELABORAZIONE
@@ -16,7 +16,7 @@ const secondoNum = parseInt(prompt("dammi il secondo numero"));
 if (primoNum > secondoNum){
     console.log("il numero maggiore è" + " " + primoNum);
 }else{
-    console.log("Il numero più grande è" + " " + secondoNum);
+    console.log("Il numero maggiore è" + " " + secondoNum);
 }
 
 
